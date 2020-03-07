@@ -1,0 +1,45 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  background: url(adrien-olichon-AMatL4-XvQg-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Bellota', cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+  margin: 0rem 10rem 0rem 10rem;
+}
+
+form{
+  text-align: center;
+  color: white;
+  margin: 10rem 10rem 0rem 10rem;
+}
+
+.form-control{
+  text-align: center;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.btn-primary{
+  background-color: #44c767;
+  border-style: ridge;
+  border-color: #44c767;
+}
+
+.btn-primary:hover{
+  transform: scale(1.2);
+  transition: all 2s;
+}
